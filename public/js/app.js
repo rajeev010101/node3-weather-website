@@ -1,4 +1,4 @@
-console.log('Client side javascript file is loaded!')
+
 
 
 const weatherForm = document.querySelector('form')
@@ -31,7 +31,7 @@ fetch('http://localhost:3000/weather?address=' + location).then((response) => {
       }
      
    
-          })
+           })
      })
 })
 
